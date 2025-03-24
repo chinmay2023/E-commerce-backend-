@@ -1,8 +1,4 @@
 from django.contrib import admin
-from . import models
+from .models import Category  # Ensure correct import
 
-# Register your models here.
-admin.site.register(models.User)
-admin.site.register(models.Category)
-admin.site.register(models.Product)
-admin.site.register(models.Cart)
+admin.site.register(Category)
